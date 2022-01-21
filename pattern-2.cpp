@@ -1,3 +1,12 @@
+/*
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+print the pattern......
+*/
+
 #include<iostream>
 using namespace std;
 void HalfPyramid(int n){
