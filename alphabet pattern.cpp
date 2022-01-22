@@ -1,3 +1,11 @@
+/*
+A
+B B
+C C C
+D D D D
+E E E E E
+print the pattern......
+*/
 #include<iostream>
 using namespace std;
 void HalfPyramid(int n){
