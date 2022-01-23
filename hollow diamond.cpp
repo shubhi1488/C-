@@ -1,4 +1,17 @@
 //hollow pattern
+/*
+* * * * *  * * * * *
+* * * *      * * * *
+* * *          * * *
+* *              * *
+*                  *
+*                  *
+* *              * *
+* * *          * * *
+* * * *      * * * *
+* * * * *  * * * * *
+print the pattern..........
+*/
 #include<iostream>
 using namespace std;
 void hollowDiamond(int n){
