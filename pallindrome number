@@ -1,0 +1,27 @@
+//to check whether the given number is pallindrome or not
+
+...............................................................solution............................................................................................................
+
+#include<iostream>
+using namespace std;
+void isPallindrome(int x){
+int rev=0,r,temp;
+temp=x;
+while(temp>0){
+  r=temp%10;
+  rev=rev*10+r;
+  temp=temp/10;
+ }
+ if(rev==temp){
+      cout<<"it is a pallindrome number";
+ }
+ else{
+     cout<<"it is not a pallindrome number";
+}
+int main(){
+   int x;
+   cout<<"enter a number";
+   cin>>x;
+   isPallindrome(x);
+   return 0;
+}
